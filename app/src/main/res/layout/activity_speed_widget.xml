@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SpeedWidgetActivity">
+
+    <com.jayz.widget.dashboard.widget.SpeedDashboardWidget
+        android:id="@+id/speedDashboardWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:dialMinValue="0"
+        app:dialMaxValue="300"
+        app:dialStepValue="20"
+        app:dialLineStartDegree="135"
+        app:circleRadius="150dp"
+        app:dialTextSize="6sp"
+        app:speedTextSize="22sp"
+        app:speedTextColor="@color/white"
+        app:dialBgColor="#a02e13b7"
+        app:dialTextNormalColor="@color/design_default_color_primary"
+        app:dialLineNormalColor="@color/design_default_color_primary"
+        app:warnColor="@color/design_default_color_error"
+        app:speedPointerColor="@color/design_default_color_primary"
+        app:dialLineBgColor="@color/design_default_color_primary"
+        app:currentSpeedBgColor="@color/design_default_color_primary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

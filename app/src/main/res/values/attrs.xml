@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpeedDashboardWidget">
+        <attr name="dialMaxValue" format="float" />
+        <attr name="dialMinValue" format="float" />
+        <attr name="dialStepValue" format="integer" />
+        <attr name="dialLineStartDegree" format="float" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="dialTextSize" format="dimension" />
+        <attr name="speedTextSize" format="dimension" />
+        <attr name="speedTextColor" format="color" />
+        <attr name="dialBgColor" format="color" />
+        <attr name="dialTextNormalColor" format="color" />
+        <attr name="dialLineNormalColor" format="color" />
+        <attr name="warnColor" format="color" />
+        <attr name="speedPointerColor" format="color" />
+        <attr name="dialLineBgColor" format="color" />
+        <attr name="currentSpeedBgColor" format="color" />
+
+    </declare-styleable>
+</resources>
